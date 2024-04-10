@@ -7,7 +7,7 @@ const RoutesComponent = () => {
   return (
     <Routes>
       <Route path="/*" element={<Home />} />
-      <Route path="/calender" element={<Calender />} />
+      <Route path="/calender/:type" element={<Calender />} />
     </Routes>
   );
 };

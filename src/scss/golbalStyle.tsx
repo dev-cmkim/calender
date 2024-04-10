@@ -10,10 +10,8 @@ const GlobalStyle = createGlobalStyle`
         font-size: 1vw;
     }
     body{
-        font-family: "Font_test";
+        font-family: "Roboto";
         line-height: 1.5;
-        background-color: ${({ theme }) => theme.colors.background_color};
-        color: ${({ theme }) => theme.colors.text_color};
         font-size: 2rem;
     }
     input, textarea, select, button {
