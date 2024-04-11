@@ -14,6 +14,15 @@ const CalenderInner = styled.div`
 
 const Calender = () => {
     const { type } = useParams();
+    const currentYear: any = moment().year();
+    const currentMonth: any = moment().month() + 1;
+    const currentDate: any = moment();
+    let dayNames: any;
+    let weeks: any;
+
+    console.log(currentYear, currentMonth)
+
+
     return (
         <CalenderWrap>
             {type ==='me'?
