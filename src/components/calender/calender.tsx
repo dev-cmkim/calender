@@ -40,7 +40,7 @@ const CalendarComponent = () => {
         let week: any[] = [];
 
         for (let i = 0; i < firstDay; i++) {
-            week.push(''); // Placeholder for empty cells
+            week.push('');
         }
 
         for (let day = 1; day <= daysInMonth; day++) {
