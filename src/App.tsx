@@ -1,16 +1,12 @@
 import React from 'react';
-import { BrowserRouter as Router } from 'react-router-dom';
-import RoutesComponent from './components/routes';
+import {Outlet} from 'react-router-dom';
 // import Globalstyle from './Styles/Globalstyle';
 
 function App(): JSX.Element {
   return (
-    <>
-      {/* <Globalstyle /> */}
-      <Router>
-        <RoutesComponent />
-      </Router>
-    </>
+      <div>
+        <Outlet />
+      </div>
   );
 }
 
